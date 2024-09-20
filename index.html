@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Fetcher</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>GitHub Profile Finder</h1>
+    
+    <!-- Input field to enter GitHub username -->
+    <input type="text" id="username" placeholder="Enter GitHub username">
+    
+    <!-- Button to fetch GitHub data -->
+    <button id="fetchButton">Fetch Profile</button>
+
+    <!-- Display fetched user information -->
+    <div id="userInfo" class="hidden">
+      <h2 id="name"></h2>
+      <img id="avatar" src="" alt="User Avatar" width="100">
+      <p id="bio"></p>
+      
+      <!-- Button to redirect to the user's GitHub profile -->
+      <a id="profileLink" href="#" target="_blank">Go to GitHub Profile</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to external JS -->
+</body>
+</html>
